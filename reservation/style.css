@@ -1,0 +1,53 @@
+
+.reservation-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: url('img/bg2.jpg');
+}
+  h2 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reservation-confirmation {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .reservation-confirmation ul {
+    margin-top: 10px;
+    padding-left: 0;
+  }
+  
+  .reservation-confirmation li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  
+  .reservation-confirmation span {
+    font-weight: bold;
+  }
+  

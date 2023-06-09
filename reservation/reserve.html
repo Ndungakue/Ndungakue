@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="reservation-form">
+        <h2>Make a Reservation</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+      
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+      
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+      
+          <label for="number-of-people">Number of People:</label>
+          <input type="number" id="number-of-people" name="number-of-people" min="1" required>
+      
+          <button type="submit" onclick="submitReservation()">Submit</button>
+        </form>
+      </div>
+      
+      <div class="reservation-confirmation" style="display: none;">
+        <h2>Reservation Confirmation</h2>
+        <p>Thank you for making a reservation at our restaurant!</p>
+        <p>Your reservation details:</p>
+        <ul>
+          <li>Name: <span id="confirmation-name"></span></li>
+          <li>Email: <span id="confirmation-email"></span></li>
+          <li>Phone: <span id="confirmation-phone"></span></li>
+          <li>Date: <span id="confirmation-date"></span></li>
+          <li>Time: <span id="confirmation-time"></span></li>
+          <li>Number of people: <span id="confirmation-number-of-people"></span></li>
+        </ul>
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
